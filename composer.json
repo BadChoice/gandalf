@@ -1,0 +1,22 @@
+{
+    "name": "badchoice/gandalf",
+    "description": "User device tracker",
+    "type": "library",
+    "require": {
+        "jenssegers/agent": "^2.3",
+        "stevebauman/location" : "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Badchoice",
+            "email": "jordi@gloobus.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BadChoice\\Gandalf\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
